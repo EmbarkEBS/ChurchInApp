@@ -34,7 +34,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.ebs.churchin"
+    namespace "com.ebs.alfa"
     compileSdk 34
     ndkVersion flutter.ndkVersion
     applicationVariants.all { variant ->
@@ -57,7 +57,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.ebs.churchin"
+        applicationId "com.ebs.alfa"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 20
