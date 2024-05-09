@@ -3,11 +3,13 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:churchIn/ProfileEditPage.dart';
+import 'package:churchIn/helpers/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
-import 'package:new_churchlin/ProfileEditPage.dart';
-import 'package:new_churchlin/helpers/helper.dart';
+// import 'package:new_churchlin/ProfileEditPage.dart';
+// import 'package:new_churchlin/helpers/helper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 

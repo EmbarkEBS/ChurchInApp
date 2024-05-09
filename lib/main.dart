@@ -2,18 +2,28 @@
 
 import 'dart:async';
 
+import 'package:churchIn/ChangePwdPage.dart';
+import 'package:churchIn/CheckoutPage.dart';
+import 'package:churchIn/ForgotPwdPage.dart';
+import 'package:churchIn/LoginPage.dart';
+import 'package:churchIn/MenuPage.dart';
+import 'package:churchIn/OfferingPage.dart';
+import 'package:churchIn/RegisterPage.dart';
+import 'package:churchIn/ScannerPage.dart';
+import 'package:churchIn/SignUpPage.dart';
+import 'package:churchIn/Verfication%7Bage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:new_churchlin/ChangePwdPage.dart';
-import 'package:new_churchlin/CheckoutPage.dart';
-import 'package:new_churchlin/ForgotPwdPage.dart';
-import 'package:new_churchlin/LoginPage.dart';
-import 'package:new_churchlin/MenuPage.dart';
-import 'package:new_churchlin/OfferingPage.dart';
-import 'package:new_churchlin/RegisterPage.dart';
-import 'package:new_churchlin/ScannerPage.dart';
-import 'package:new_churchlin/SignUpPage.dart';
-import 'package:new_churchlin/Verfication%7Bage.dart';
+// import 'package:new_churchlin/ChangePwdPage.dart';
+// import 'package:new_churchlin/CheckoutPage.dart';
+// import 'package:new_churchlin/ForgotPwdPage.dart';
+// import 'package:new_churchlin/LoginPage.dart';
+// import 'package:new_churchlin/MenuPage.dart';
+// import 'package:new_churchlin/OfferingPage.dart';
+// import 'package:new_churchlin/RegisterPage.dart';
+// import 'package:new_churchlin/ScannerPage.dart';
+// import 'package:new_churchlin/SignUpPage.dart';
+// import 'package:new_churchlin/Verfication%7Bage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'helpers/helper.dart';

@@ -3,7 +3,8 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:new_churchlin/utils/validator.dart';
+// import 'package:new_churchlin/utils/validator.dart';
+import 'package:churchIn/utils/validator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

@@ -3,15 +3,18 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:churchIn/helpers/encrypter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
-import 'package:new_churchlin/ProfileEditPage.dart';
-import 'package:new_churchlin/helpers/encrypter.dart';
+// import 'package:new_churchlin/ProfileEditPage.dart';
+// import 'package:new_churchlin/helpers/encrypter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:http/http.dart' as http;
+
+import 'ProfileEditPage.dart';
 
 class OfferingPage extends StatefulWidget {
   const OfferingPage({super.key});
