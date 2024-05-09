@@ -1,4 +1,4 @@
-package com.ebs.alfa
+package com.ebs.churchin
 
 import io.flutter.embedding.android.FlutterActivity
 
