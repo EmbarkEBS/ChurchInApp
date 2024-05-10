@@ -34,9 +34,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<!-- Need to access the permission for camera -->
-	<key>NSCameraUsageDescription</key>
-	<string>We need access to your camera to scan the QR for event entry</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -48,5 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- Need to access the permission for camera -->
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to scan the QR for event entry</string>
 </dict>
 </plist>
