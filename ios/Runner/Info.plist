@@ -45,6 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<!-- Need to access the permission for camera -->
 	<key>NSCameraUsageDescription</key>
 	<string>We need access to your camera to scan the QR for event entry</string>
