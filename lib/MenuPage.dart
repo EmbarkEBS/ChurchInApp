@@ -308,6 +308,10 @@ class _MenuPageState extends State<MenuPage> {
                                   },
                                   child: const Text(
                                     "First Timer",
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        // fontWeight: FontWeight.w300,
+                                        fontSize: 16),
                                   ),
                                 ),
                                 const SizedBox(
@@ -392,7 +396,10 @@ class _MenuPageState extends State<MenuPage> {
                                   ),
                                   child: const Text(
                                     "Current member",
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        // fontWeight: FontWeight.w300,
+                                        fontSize: 16),
                                   ),
                                 ),
                                 const SizedBox(
@@ -413,7 +420,11 @@ class _MenuPageState extends State<MenuPage> {
                                         borderRadius:
                                             BorderRadius.circular(10)), // NEW
                                   ),
-                                  child: const Text("Sign-in for Children"),
+                                  child: const Text("Sign-in for Children",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          // fontWeight: FontWeight.w300,
+                                          fontSize: 16)),
                                 ),
                                 const SizedBox(
                                   height: 16,
@@ -431,7 +442,12 @@ class _MenuPageState extends State<MenuPage> {
                                         borderRadius:
                                             BorderRadius.circular(10)),
                                   ),
-                                  child: const Text("Event Entry"),
+                                  child: const Text("Event Entry",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 16,
+                                          // fontWeight: FontWeight.w300
+                                          )),
                                 ),
                                 const SizedBox(
                                   height: 16,
@@ -520,7 +536,12 @@ class _MenuPageState extends State<MenuPage> {
                                         borderRadius:
                                             BorderRadius.circular(10)),
                                   ),
-                                  child: const Text("Giving/Gift"),
+                                  child: const Text("Giving/Gift",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 16,
+                                          // fontWeight: FontWeight.w300
+                                          )),
                                 ),
                               ],
                             ),

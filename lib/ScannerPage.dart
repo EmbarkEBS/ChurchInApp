@@ -211,6 +211,7 @@ class _ScannerPageState extends State<ScannerPage> {
             value!.split("_"); //print(value.toString()+" gggggg");
         if (txt.length > 1 && txt[0].toLowerCase() == "alpha") {
           final Map<String, dynamic> result = {"value": value};
+          print('Values: $value');
           this.controller!.pauseCamera();
           Navigator.pushNamed(context, "/menu", arguments: result)
               .then((value) => this.controller!.resumeCamera());
